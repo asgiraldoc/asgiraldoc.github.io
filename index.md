@@ -19,7 +19,7 @@
 <img src="images/gerph.png?raw=true"/>
 
 
-### [Publications](/research)
+### [Publications](/publications)
 
 
 
