@@ -4,6 +4,7 @@
 
 ### 1. Standardization of molecular biology protocols (identification of hemoparasites)
 
+<img src="images/pcr.png?raw=true"/>
 
 
 ### 2. Animal model and life cycle characterization of *Haemoproteus columbae*
