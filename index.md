@@ -2,14 +2,12 @@
 
 ---
 
----
-
-### [About me](/sample_page)
+### [About me](/aboutme)
 
 
 
 
-### Research
+### [Research](/research)
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
