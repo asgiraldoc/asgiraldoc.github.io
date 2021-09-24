@@ -21,6 +21,6 @@
      width="400" 
      height="400"></p>
 
-<p style="text-align:center;"><img src="images/test.gif"
+<p style="text-align:center;"><img src="images/igem.gif"
      width="400" 
      height="400"></p>
