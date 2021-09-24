@@ -6,7 +6,7 @@
 
 <p style="text-align:center;"><img src="images/pcr.png"
      width="300" 
-     height="200"/></p>
+     height="200"></p>
 
 
 ### 2. Animal model and life cycle characterization of *Haemoproteus columbae*
