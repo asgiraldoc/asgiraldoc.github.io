@@ -4,8 +4,6 @@
 </p>
 
 <br><br>
-
-
 hhr
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
