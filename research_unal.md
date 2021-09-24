@@ -9,7 +9,9 @@
 
 ### 2. Animal model and life cycle characterization of *Haemoproteus columbae*
 
-<img src="images/life_cycle.png?raw=true"/>
+<img src="images/life_cycle.png?raw=true"
+     width="400" 
+     height="500">
 
 ### 3. *Haemoproteus columbae* genome
 
