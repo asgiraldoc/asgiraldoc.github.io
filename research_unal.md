@@ -17,3 +17,7 @@
 
 
 
+<p style="text-align:center;"><img src="images/api.png"
+     width="400" 
+     height="400"></p>
+
