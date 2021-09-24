@@ -2,12 +2,12 @@
 
 ---
 
-### [About me](/aboutme)
+### [**About me**](/aboutme)
 
 
 
 
-### [Research]
+### **Research**
 
 [My Research at Temple](/research)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -17,11 +17,11 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 
-### [Publications](/research)
+### [**Publications**](/research)
 
 
 
-### [*Curriculum vitae*](/research)
+### [***Curriculum vitae***](/research)
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
