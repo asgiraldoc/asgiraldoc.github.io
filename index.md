@@ -10,7 +10,7 @@
 ### Research
 
 [My Research at Temple](/research)
-<img src="images/igem_logo.png?raw=true"/>
+<img src="images/igem_logo1.png?raw=true"/>
 
 
 [My Research at UNAL](/research)
