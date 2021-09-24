@@ -4,7 +4,10 @@
 </p>
 
 <br>
-hhr
+<p align="justify">  <b> My interests:</b> I have found that all things have their positive and negative sides throughout my life, so I have always tried to explore all kinds of things. For example, my musical tastes range from death-gore metal to Colombian folk music. Likewise, with sports, I am passionate about chess and soccer (my team is Millonarios FC). 
+
+I've always considered myself a voracious reader of philosophy, fantasy, and classic literature. However, my brain shuts down entirely when I've tried to explore genres such as self-improvement or pseudo-science.
+</p>
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
