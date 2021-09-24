@@ -10,11 +10,11 @@
 ### Research
 
 [My Research at Temple](/research)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/igem_logo.png?raw=true"/>
 
 
 [My Research at UNAL](/research)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/gerph.png?raw=true"/>
 
 
 ### [Publications](/research)
