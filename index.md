@@ -7,7 +7,7 @@
 
 
 
-### Research
+###  <p style="color:blue;">Research</p>
 
 [My Research at Temple](/research)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
