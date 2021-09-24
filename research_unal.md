@@ -5,6 +5,7 @@
 ### 1. Standardization of molecular biology protocols (identification of hemoparasites)
 
 <img src="images/pcr.png?raw=true"
+     class="center"
      width="300" 
      height="200"/>
 
