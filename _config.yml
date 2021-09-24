@@ -8,5 +8,5 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/axl-giraldo-cepeda-3881b9151/">View My LinkedIn Profile</a> 
   <br><br>
    <a href="axl.giraldoc@temple.edu">Contact me</a> 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
