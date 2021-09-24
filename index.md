@@ -23,7 +23,7 @@
 
 
 
-### [Curriculum vitae](/research)
+### [*Curriculum vitae*](/research)
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
