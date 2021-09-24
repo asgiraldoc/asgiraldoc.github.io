@@ -14,7 +14,7 @@
 <img src="images/igem_logo1.png?raw=true"/>
 
 
-[My Research at UNAL](/research)
+[My Research at UNAL](/research_unal)
 
 <img src="images/gerph.png?raw=true"/>
 
