@@ -27,12 +27,9 @@
 
 
 ## *Curriculum vitae*
-[<center><img src="images/cv.png?raw=true" height="50%" width="50%"/></center>](/publications)
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[<center><img src="images/cv.png?raw=true" height="50%" width="50%"/></center>](/pdf/sample_presentation.pdf)
+
+
 
 
 <!-- Remove above link if you don't want to attibute -->
