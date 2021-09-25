@@ -26,8 +26,8 @@
 [<center><img src="images/publication1.png?raw=true"/></center>](/publications)
 
 
-## [*Curriculum vitae*](/research)
-
+## *Curriculum vitae*
+[<center><img src="images/cv.png?raw=true"/></center>](/publications)
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
