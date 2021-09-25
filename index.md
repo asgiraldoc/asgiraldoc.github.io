@@ -11,7 +11,7 @@
 ## Research
 
 
-[<img src="images/igem_logo1.png?raw=true"/>](/research@temple)
+[<center><img src="images/igem_logo1.png?raw=true"/></center>](/research@temple)
 
 
 
