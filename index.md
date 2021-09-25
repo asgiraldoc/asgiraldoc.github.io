@@ -23,7 +23,7 @@
 
 
 ## Publications
-[<img src="images/publication.png?raw=true"/>](/publications)
+[<center><img src="images/publication.png?raw=true"/></center>](/publications)
 
 
 ## [*Curriculum vitae*](/research)
