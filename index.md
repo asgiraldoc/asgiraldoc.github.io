@@ -6,7 +6,7 @@
 
 
 
-[<center><img src="images/about_me.png?raw=true" height="60%" width="60%"/></center>](/aboutme)
+[<center><img src="images/story.png?raw=true" height="60%" width="60%"/></center>](/aboutme)
 
 ## Research
 
