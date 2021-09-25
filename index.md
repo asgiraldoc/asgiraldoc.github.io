@@ -23,7 +23,7 @@
 
 
 ## Publications
-[<img src="images/igem_logo1.png?raw=true"/>](/publications)
+[<img src="images/publication.png?raw=true"/>](/publications)
 
 
 ## [*Curriculum vitae*](/research)
