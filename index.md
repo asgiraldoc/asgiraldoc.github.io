@@ -9,7 +9,7 @@
 
 ### Research
 
-[My Research at Temple](/research)
+[My Research at Temple](/research_temple)
 
 <img src="images/igem_logo1.png?raw=true"/>
 
