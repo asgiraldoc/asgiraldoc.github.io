@@ -73,8 +73,7 @@ Finally, I have been interested in tattoos for a few years now. I currently have
   to {opacity:1 ;}
 }
 </style>
-</head>
-<body style="text-align:center">
+
 
 <div class="popup" onclick="myFunction()">Email me 📫!
   <span class="popuptext" id="myPopup">axl.giraldo@temple.edu</span>
