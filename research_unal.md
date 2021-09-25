@@ -23,4 +23,4 @@
 
 <p style="text-align:center;"><img src="images/igem.gif"
      width="400" 
-     height="400"></p>
+     height="600"></p>
