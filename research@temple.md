@@ -1,10 +1,9 @@
-## My Research at Temple
-
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## My Research at Temple University
 
 ### 1. Genome Characterization and Population Genetics in *Plasmodium* spp.
-
-
+<p align="justify">
+I am currently characterizing the nuclear genome of <i>Plasmodium gonderi</i> to perform comparative genomics, phylogenomics, and time within the genus <i>Plasmodium</i>, from an evolutionary perspective of the genus. On the other hand, I am looking for evolutionary signatures in <i>Plasmodium vivax</i> and <i>Plasmodium falciparum</i> populations, with the perspective of expanding the epidemiological analysis of malaria in humans.
+</p>
 <p style="text-align:center;"><img src="images/igem.gif"
      width="400" 
      height="600"></p>
