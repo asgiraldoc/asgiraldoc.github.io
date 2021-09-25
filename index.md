@@ -10,12 +10,11 @@
 
 ### Research
 
-My Research at Temple
 
 [<img src="images/igem_logo1.png?raw=true"/>](/research@temple)
 
 
-My Research at UNAL
+
 
 [<img src="images/gerph.png?raw=true"/>](/research@unal)
 
