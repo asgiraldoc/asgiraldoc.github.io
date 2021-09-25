@@ -27,7 +27,7 @@
 
 
 ## *Curriculum vitae*
-[<center><img src="images/cv.png?raw=true"/></center>](/publications)
+[<center><img src="images/cv.png?raw=true" height="60%" width="60%"/></center>](/publications)
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
