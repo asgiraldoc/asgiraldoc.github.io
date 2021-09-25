@@ -6,6 +6,7 @@
 
 
 
+[<img src="images/about_me.png?raw=true"/>](/aboutme)
 
 ### Research
 
@@ -16,7 +17,7 @@
 
 [My Research at UNAL](/research@unal)
 
-<img src="images/gerph.png?raw=true"/>
+[<img src="images/gerph.png?raw=true"/>](/research@unal)
 
 
 
