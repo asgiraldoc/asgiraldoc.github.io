@@ -6,7 +6,7 @@
 
 
 
-[<p style="text-align:center;"><img src="images/about_me.png?raw=true" width="200" height="100"></p>](/aboutme)
+[<p style="text-align:center;"><img src="images/about_me.png?raw=true" width="225" height="100"></p>](/aboutme)
 
 ### Research
 
