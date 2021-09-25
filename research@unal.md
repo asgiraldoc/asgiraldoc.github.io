@@ -2,7 +2,9 @@
 
 **Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### 1. Standardization of molecular biology protocols (identification of hemoparasites)
+### 1. Standardization of molecular biology protocols (heamoparasite diagnosis)
+
+This project succeeded in standardizing multiplex PCR assays to diagnose coinfections of heamoparasites that infect birds, achieving 79.4% of the total number of coinfections when confirmed host DNA integrity. It also provided preliminary results to increase the resolution of phylogenetic hypotheses using new mitochondrial markers.
 
 <p style="text-align:center;"><img src="images/pcr.png"
      width="300" 
