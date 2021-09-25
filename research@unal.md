@@ -11,13 +11,13 @@
 
 ### 2. Animal model and life cycle characterization of *Haemoproteus columbae*
 
-<p align="justify">  The main aims of this study were: i) to develop a useable methodology to carry out experimental research with H. columbae using its natural avian host (the Rock Pigeon) and its vector (louse fly) and ii) to follow the complete life cycle of H. columbae (cytb lineage HAECOL1) in experimentally infected insects and birds. </p>
+<p align="justify">  The main aims of this study were: i) to develop a useable methodology to carry out experimental research with <i>H. columbae</i> using its natural avian host (the Rock Pigeon) and its vector (louse fly) and ii) to follow the complete life cycle of <i>H. columbae</i> (cytb lineage HAECOL1) in experimentally infected insects and birds. </p>
 
 <img src="images/life_cycle.png?raw=true"/>
 
 ### 3. *Haemoproteus columbae* apicoplast genome
 
-<p align="justify">  *Haemoproteus* shares a recent common ancestor with *Plasmodium* compared to other known Haemosporida such as the genus *Leucocytozoon*. In this sense, the *H. columbae* apicoplast genome is important since it can be used, for instance, in phylogenetic analyses as an outgroup for the *Plasmodium-Hepatocystis* clade. In addition to reporting the first *Haemoproteus* apicoplast genome, this new genome is used to reconstruct phylogenetic hypotheses within the order Haemosporida. </p>
+<p align="justify">  <i>Haemoproteus</i> shares a recent common ancestor with <i>Plasmodium</i> compared to other known Haemosporida such as the genus <i>Leucocytozoon</i>. In this sense, the *H. columbae* apicoplast genome is important since it can be used, for instance, in phylogenetic analyses as an outgroup for the <i>Plasmodium-Hepatocystis</i> clade. In addition to reporting the first <i>Haemoproteus</i> apicoplast genome, this new genome is used to reconstruct phylogenetic hypotheses within the order Haemosporida. </p>
 
 
 <p style="text-align:center;"><img src="images/api.png"
