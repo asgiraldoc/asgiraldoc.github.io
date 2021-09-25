@@ -7,9 +7,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   I completed my master's degree at the National University of Colombia, working with Dr. Nubia Matta. My research focused on characterizing the first genome of the parasite genus <i> Haemoproteus </i>  (subgenus <i> Haemoproteus</i>). However, my approach to this study included standardization of the animal model, description of the parasite life cycle in both vector and vertebrate hosts, and evolutionary analyses including this parasite genome. 
    <br> <br>
   <a href="https://www.linkedin.com/in/axl-giraldo-cepeda-3881b9151/">View My LinkedIn Profile</a> 
+   <br> <br>
+   <a href="https://scholar.google.com/citations?user=wkuyeaAAAAAJ&hl=en&oi=ao">View My Google scholar Profile</a>
   </p>
-   <p style="font-size:9.5px"><a href="https://www.linkedin.com/in/axl-giraldo-cepeda-3881b9151/">View My LinkedIn Profile</a> </p>
-   <p style="font-size:9.5px"><a href="https://scholar.google.com/citations?user=wkuyeaAAAAAJ&hl=en&oi=ao">View My Google scholar Profile</a> </p>
-#  <br><br>
-#  <a href="axl.giraldoc@temple.edu">Contact me</a> 
+
 theme: jekyll-theme-minimal
