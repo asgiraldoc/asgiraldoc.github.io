@@ -11,7 +11,7 @@
 
 [My Research at Temple](/research@temple)
 
-<img src="images/igem_logo1.png?raw=true"/>
+[<img src="images/igem_logo1.png?raw=true"/>](/research@temple)
 
 
 [My Research at UNAL](/research@unal)
