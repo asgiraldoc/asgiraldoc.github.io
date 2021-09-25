@@ -1,14 +1,14 @@
-## Doctoral Student
+# Doctoral Student
 
 ---
 
-### About me
+## About me
 
 
 
 [<center><img src="images/about_me.png?raw=true" height="60%" width="60%"/></center>](/aboutme)
 
-### Research
+## Research
 
 
 [<img src="images/igem_logo1.png?raw=true"/>](/research@temple)
@@ -22,11 +22,10 @@
 
 
 
-### [Publications](/publications)
+## [Publications](/publications)
 
 
-
-### [*Curriculum vitae*](/research)
+## [*Curriculum vitae*](/research)
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
