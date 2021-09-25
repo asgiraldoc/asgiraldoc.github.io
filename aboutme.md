@@ -13,7 +13,7 @@ Finally, I have been interested in tattoos for a few years now. I currently have
 
 
 <a href="https://twitter.com/wild_malaria">Follow me on Twitter 🐦</a>
-<head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 /* Popup container - can be anything you want */
@@ -88,4 +88,4 @@ function myFunction() {
 }
 </script>
 
-</body>
+
