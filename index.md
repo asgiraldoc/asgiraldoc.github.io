@@ -27,7 +27,7 @@
 
 
 ## *Curriculum vitae*
-[<center><img src="images/cv.png?raw=true" height="50%" width="50%"/></center>](/pdf/cv-Axl.pdf)
+[<center><img src="images/cv.png?raw=true" height="50%" width="50%"/></center>](/pdf/CV_Axl-v.2.pdf)
 
 
 
