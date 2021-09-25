@@ -9,12 +9,12 @@
 
 ### Research
 
-[My Research at Temple](/research_temple)
+[My Research at Temple](/research@temple)
 
 <img src="images/igem_logo1.png?raw=true"/>
 
 
-[My Research at UNAL](/research_unal)
+[My Research at UNAL](/research@unal)
 
 <img src="images/gerph.png?raw=true"/>
 
