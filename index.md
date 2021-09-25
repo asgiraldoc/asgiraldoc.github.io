@@ -16,7 +16,7 @@
 
 
 
-[<img src="images/gerph.png?raw=true"/>](/research@unal)
+[<center><img src="images/gerph.png?raw=true"/></center>](/research@unal)
 
 
 
