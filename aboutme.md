@@ -76,10 +76,8 @@ Finally, I have been interested in tattoos for a few years now. I currently have
 </head>
 <body style="text-align:center">
 
-<h2>Popup</h2>
-
-<div class="popup" onclick="myFunction()">Click me to toggle the popup!
-  <span class="popuptext" id="myPopup">A Simple Popup!</span>
+<div class="popup" onclick="myFunction()">Email me 📫!
+  <span class="popuptext" id="myPopup">axl.giraldo@temple.edu</span>
 </div>
 
 <script>
