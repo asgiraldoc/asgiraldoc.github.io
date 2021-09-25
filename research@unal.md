@@ -11,9 +11,12 @@ This project succeeded in standardizing multiplex PCR assays to diagnose coinfec
 
 ### 2. Animal model and life cycle characterization of *Haemoproteus columbae*
 
+The main aims of this study were: i) to develop a useable methodology to carry out experimental research with H. columbae using its natural avian host (the Rock Pigeon) and its vector (louse fly) and ii) to follow the complete life cycle of H. columbae (cytb lineage HAECOL1) in experimentally infected insects and birds.
+
 <img src="images/life_cycle.png?raw=true"/>
 
-### 3. *Haemoproteus columbae* genome
+### 3. *Haemoproteus columbae* apicoplast genome
+
 
 
 
