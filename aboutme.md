@@ -12,4 +12,4 @@ Finally, I have been interested in tattoos for a few years now. I currently have
 </p>
 
 
-#<a href="https://twitter.com/wild_malaria">Follow me on Twitter 🐦</a>
+<a href="https://twitter.com/wild_malaria">Follow me on Twitter 🐦</a>
