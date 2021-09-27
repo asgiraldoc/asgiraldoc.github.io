@@ -10,7 +10,7 @@
 <p align="justify">  <i>Haemoproteus</i> shares a recent common ancestor with <i>Plasmodium</i> compared to other known Haemosporida such as the genus <i>Leucocytozoon</i>. In this sense, the <i>H. columbae</i> apicoplast genome is important since it can be used, for instance, in phylogenetic analyses as an outgroup for the <i>Plasmodium-Hepatocystis</i> clade. In addition to reporting the first <i>Haemoproteus</i> apicoplast genome, this new genome is used to reconstruct phylogenetic hypotheses within the order Haemosporida. <a href="https://asgiraldoc.github.io/publications">2</a>.</p>
 
 
-<p style="text-align:center;"><img src="images/api.png"/></p>
+<p style="text-align:center;"><img src="images/api.png" height="75%" width="75%"/></p>
 
 ### 3. Animal model and life cycle characterization of *Haemoproteus columbae*
 
