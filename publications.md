@@ -24,5 +24,5 @@
 
 
 <p style="text-align:right;"><a href="https://asgiraldoc.github.io"><img src="images/back.png"
-     width="75" 
+     width="80" 
      height="50"></a></p>
