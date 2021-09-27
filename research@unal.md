@@ -31,8 +31,8 @@
 
 
 
-<p style="text-align:right;"><a href="https://asgiraldoc.github.io/publications"><img src="images/back.png"
-     width="50" 
+<p style="text-align:right;"><a href="https://asgiraldoc.github.io"><img src="images/back.png"
+     width="75" 
      height="50"></a></p>
 
 
