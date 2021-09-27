@@ -24,8 +24,8 @@
 
 [<center><img src="images/story.png?raw=true" height="60%" width="60%"/></center>](/aboutme)
 
-## [*Curriculum vitae*](/pdf/CV_Axl-v.2.pdf)
-[<center><img src="images/cv.png?raw=true" height="50%" width="50%"/></center>](/pdf/CV_Axl-v.2.pdf)
+<!--## [*Curriculum vitae*](/pdf/CV_Axl-v.2.pdf)-->
+<!--[<center><img src="images/cv.png?raw=true" height="50%" width="50%"/></center>](/pdf/CV_Axl-v.2.pdf)-->
 
 
 
