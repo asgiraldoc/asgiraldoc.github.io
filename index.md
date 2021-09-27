@@ -2,7 +2,7 @@
 
 ---
 
-## [My Research at Temple University](/research@unal)
+## [My Research at Temple University](/research@temple)
 [<center><img src="images/TU.png?raw=true"/></center>](/research@temple)
 
 
