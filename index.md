@@ -3,7 +3,7 @@
 ---
 
 ## [My Research at Temple University](/research@temple)
-[<center><img src="images/TU.png?raw=true"/></center>](/research@temple)
+[<center><img src="images/TU.png?raw=true" height="80%" width="80%"/></center>](/research@temple)
 
 
 
