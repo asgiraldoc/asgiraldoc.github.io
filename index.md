@@ -8,7 +8,7 @@
 
 
 ## [My Research at National U. of Colombia](/research@unal)
-[<center><img src="images/gerph.png?raw=true"/></center>](/research@unal)
+[<center><img src="images/gerph.png?raw=true" height="75%" width="75%"/></center>](/research@unal)
 
 
 
