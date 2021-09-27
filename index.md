@@ -4,12 +4,12 @@
 
 ## Research
 
-
+### My Research at Temple University
 [<center><img src="images/igem_logo1.png?raw=true"/></center>](/research@temple)
 
 
 
-
+### My Research at National U. of Colombia
 [<center><img src="images/gerph.png?raw=true"/></center>](/research@unal)
 
 
