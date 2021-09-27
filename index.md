@@ -15,7 +15,7 @@
 
 
 ## [Publications](/publications)
-[<center><img src="images/publication1.png?raw=true"/></center>](/publications)
+[<center><img src="images/publication1.png?raw=true" height="75%" width="75%"/></center>](/publications)
 
 
 ## [About me](/aboutme)
