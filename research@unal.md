@@ -3,14 +3,14 @@
 ### 1. Diversity of species of the phylum Apicomplexa in the wildlife.
 <p align="justify"> Hemoparasites are an important source of information about ecosystems since give us information about the natural history of the hosts, evolution, trophic relationships, emerging diseases and environmental health. The advances in molecular biology have promoted the detection of hemoparasites, and the number of lineages from them reported.  <a href="https://asgiraldoc.github.io/publications">1, 3</a>.</p>
 
-<p style="text-align:center;"><img src="images/div.png"/></p>
+<p style="text-align:center;"><img src="images/div.png" height="75%" width="75%"/></p>
 
 ### 2. *Haemoproteus columbae* apicoplast genome
 
 <p align="justify">  <i>Haemoproteus</i> shares a recent common ancestor with <i>Plasmodium</i> compared to other known Haemosporida such as the genus <i>Leucocytozoon</i>. In this sense, the <i>H. columbae</i> apicoplast genome is important since it can be used, for instance, in phylogenetic analyses as an outgroup for the <i>Plasmodium-Hepatocystis</i> clade. In addition to reporting the first <i>Haemoproteus</i> apicoplast genome, this new genome is used to reconstruct phylogenetic hypotheses within the order Haemosporida. <a href="https://asgiraldoc.github.io/publications">2</a>.</p>
 
 
-<p style="text-align:center;"><img src="images/api.png" height="5%" width="5%"/></p>
+<p style="text-align:center;"><img src="images/api.png"/></p>
 
 ### 3. Animal model and life cycle characterization of *Haemoproteus columbae*
 
