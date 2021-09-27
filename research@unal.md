@@ -3,7 +3,7 @@
 ### 1. Diversity of species of the phylum Apicomplexa in the wildlife.
 <p align="justify"> Hemoparasites are an important source of information about ecosystems since give us information about the natural history of the hosts, evolution, trophic relationships, emerging diseases and environmental health. The advances in molecular biology have promoted the detection of hemoparasites, and the number of lineages from them reported.  <a href="https://asgiraldoc.github.io/publications">1, 3</a>.</p>
 
-<p style="text-align:center;"><img src="images/div.png" height="55%" width="55%"/></p>(/aboutme)
+<p style="text-align:center;"><img src="images/div.png" height="55%" width="55%"/></p>(/publications)
 
 ### 2. *Haemoproteus columbae* apicoplast genome
 
