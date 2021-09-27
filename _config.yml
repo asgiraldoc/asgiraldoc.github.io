@@ -9,6 +9,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://scholar.google.com/citations?user=wkuyeaAAAAAJ&hl=en&oi=ao">View My Google scholar Profile</a> 
   <br><br>
-  <p>[View my <i>Curriculum Vitae</i>](/pdf/CV_Axl-v.2.pdf)</p>
+  <a href="https://asgiraldoc.github.io/pdf/CV_Axl-v.2.pdf">View my <i>Curriculum Vitae</i></a> 
 google_analytics: G-9D67NSSH9Y
 theme: jekyll-theme-minimal
+
