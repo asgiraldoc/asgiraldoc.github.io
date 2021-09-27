@@ -5,7 +5,7 @@
 ## Research
 
 ### My Research at Temple University
-[<center><img src="images/igem_logo1.png?raw=true"/></center>](/research@temple)
+[<center><img src="images/TU.png?raw=true"/></center>](/research@temple)
 
 
 
