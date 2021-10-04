@@ -6,7 +6,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://igem.temple.edu/people/person/c0ca56d9e60be58ca9380514ed8ac51d">Escalante's Lab 👨🏼‍🔬👨🏽‍💻</a> 
   <br>
-  <a href="https://igem.temple.edu/">Department of Biology, iGEM 📊👩🏻‍⚕️</a> 
+  <p style="color:yellow"> <a href="https://igem.temple.edu/">Department of Biology, iGEM 📊👩🏻‍⚕️</a> </p>
   <br>
   <a href="https://www.temple.edu/">Temple University 🏫🇺🇸 </a> 
   </p>
