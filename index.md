@@ -1,4 +1,7 @@
 # Doctoral Student
+## Escalante's Lab 🧪💻
+## Department of Biology 🦟📊
+## Temple University 🏫🇺🇸 
 
 ---
 
