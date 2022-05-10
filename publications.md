@@ -3,7 +3,7 @@
 <b>1.</b> Escalante, A. A., <a href="https://asgiraldoc.github.io/research@unal"><b>Cepeda, A. S.</b></a>, & Pacheco, M. A. (2022). Why Plasmodium vivax and Plasmodium falciparum are so different? A tale of two clades and their species diversities. Malaria Journal, 21(1), 1-19.
 <br><br>
   
-<b>2.</b> Gutiérrez-Liberato, G. A., Lotta-Arévalo, I. A., González, L. P., Vargas-Ramírez, M., Rodríguez-Fandiño, O.,  <a href="https://asgiraldoc.github.io/research@unal"><b>Cepeda, A. S.</b></a>., and Matta, N. E. (2021). The genetic and morphological diversity of Haemogregarina infecting turtles in Colombia: Are mitochondrial markers useful as barcodes for these parasites?. Infection, Genetics and Evolution, 105040.
+<b>2.</b> Gutiérrez-Liberato, G. A., Lotta-Arévalo, I. A., González, L. P., Vargas-Ramírez, M., Rodríguez-Fandiño, O.,  <a href="https://asgiraldoc.github.io/research@unal"><b>Cepeda, A. S.</b></a>, and Matta, N. E. (2021). The genetic and morphological diversity of Haemogregarina infecting turtles in Colombia: Are mitochondrial markers useful as barcodes for these parasites?. Infection, Genetics and Evolution, 105040.
 
 
 <br><br>
