@@ -27,5 +27,7 @@
 <!--[<center><img src="images/cv.png?raw=true" height="50%" width="50%"/></center>](/pdf/CV_Axl-v.2.pdf)-->
 
 
+## Modelos evolutivos
 
+- [Simulador Darwin vs Kropotkin](/models/darwin-vs-kropotkin/)
 <!-- Remove above link if you don't want to attibute -->
