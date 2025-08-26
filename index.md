@@ -29,5 +29,5 @@
 
 ## Modelos evolutivos
 
-<!-- - [Simulador Darwin vs Kropotkin](/models/darwin-vs-kropotkin/) -->
+- [Simulador Darwin vs Kropotkin](/models/darwin-vs-kropotkin/)
 <!-- Remove above link if you don't want to attibute -->
