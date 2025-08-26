@@ -10,6 +10,10 @@
 [<center><img src="images/gerph.png?raw=true" height="75%" width="75%"/></center>](/research@unal)
 
 
+## Evolutionary Models
+
+- [The Evolution Game: Compete or Cooperate?](/models/darwin-vs-kropotkin/)
+<!-- Remove above link if you don't want to attibute -->
 
 
 
@@ -27,7 +31,3 @@
 <!--[<center><img src="images/cv.png?raw=true" height="50%" width="50%"/></center>](/pdf/CV_Axl-v.2.pdf)-->
 
 
-## Evolutionary Models
-
-- [The Evolution Game: Compete or Cooperate?](/models/darwin-vs-kropotkin/)
-<!-- Remove above link if you don't want to attibute -->
