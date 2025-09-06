@@ -15,6 +15,10 @@
 - [The Evolution Game: Compete or Cooperate?](/models/darwin-vs-kropotkin/)
 <!-- Remove above link if you don't want to attibute -->
 
+## Academic projects
+
+- [Quest for Microbial Symbiosis – An Academic PokeGame](/iWebPage-pokemon/)
+<!-- Remove above link if you don't want to attibute -->
 
 
 ## [Publications](/publications)
