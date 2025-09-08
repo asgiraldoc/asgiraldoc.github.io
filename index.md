@@ -17,10 +17,10 @@
 
 <div style="display:flex; justify-content:center; gap:20px;">
   <a href="/iWebPage-pokemon/">
-    <img src="images/pokegame.jpg?raw=true" style="height:180px;"/>
+    <img src="images/pokegame.jpg?raw=true" style="height:175px;"/>
   </a>
   <a href="/models/darwin-vs-kropotkin/">
-    <img src="images/cooperationgame.jpg?raw=true" style="height:180px;"/>
+    <img src="images/cooperationgame.jpg?raw=true" style="height:175px;"/>
   </a>
 </div>
 
