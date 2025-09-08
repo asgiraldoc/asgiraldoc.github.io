@@ -10,16 +10,13 @@
 [<center><img src="images/gerph.png?raw=true" height="75%" width="75%"/></center>](/research@unal)
 
 
-## Evolutionary Models
+## Academic projects
+
+- [<center><img src="images/pokegame.jpg?raw=true" height="75%" width="75%"/></center>](/iWebPage-pokemon/)
+<!-- Remove above link if you don't want to attibute -->
 
 - [The Evolution Game: Compete or Cooperate?](/models/darwin-vs-kropotkin/)
 <!-- Remove above link if you don't want to attibute -->
-
-## Academic projects
-
-- [Quest for Microbial Symbiosis – An Academic PokeGame](/iWebPage-pokemon/)
-<!-- Remove above link if you don't want to attibute -->
-
 
 ## [Publications](/publications)
 [<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
