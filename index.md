@@ -12,10 +12,10 @@
 
 ## Academic projects
 
-- [<center><img src="images/pokegame.jpg?raw=true" height="50%" width="50%"/></center>](/iWebPage-pokemon/)
+[<center><img src="images/pokegame.jpg?raw=true" height="50%" width="50%"/></center>](/iWebPage-pokemon/)
 <!-- Remove above link if you don't want to attibute -->
 
-- [The Evolution Game: Compete or Cooperate?](/models/darwin-vs-kropotkin/)
+[<center><img src="images/cooperationgame.jpg?raw=true" height="50%" width="50%"/></center>](/models/darwin-vs-kropotkin/)
 <!-- Remove above link if you don't want to attibute -->
 
 ## [Publications](/publications)
