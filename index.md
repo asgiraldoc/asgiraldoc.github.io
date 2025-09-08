@@ -10,6 +10,9 @@
 [<center><img src="images/gerph.png?raw=true" height="75%" width="75%"/></center>](/research@unal)
 
 
+## [Publications](/publications)
+[<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
+
 ## Academic projects
 
 <div style="display:flex; justify-content:center; gap:20px;">
@@ -21,14 +24,7 @@
   </a>
 </div>
 
-## [Publications](/publications)
-[<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
-
-
 ## [About me](/aboutme)
-
-
-
 [<center><img src="images/story.png?raw=true" height="60%" width="60%"/></center>](/aboutme)
 
 <!--## [*Curriculum vitae*](/pdf/CV_Axl-v.2.pdf)-->
