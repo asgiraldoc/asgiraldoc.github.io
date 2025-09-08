@@ -12,11 +12,14 @@
 
 ## Academic projects
 
-[<center><img src="images/pokegame.jpg?raw=true" height="50%" width="50%"/></center>](/iWebPage-pokemon/)
-<!-- Remove above link if you don't want to attibute -->
-
-[<center><img src="images/cooperationgame.jpg?raw=true" height="50%" width="50%"/></center>](/models/darwin-vs-kropotkin/)
-<!-- Remove above link if you don't want to attibute -->
+<div style="display:flex; justify-content:center; gap:20px;">
+  <a href="/iWebPage-pokemon/">
+    <img src="images/pokegame.jpg?raw=true" style="height:200px;"/>
+  </a>
+  <a href="/models/darwin-vs-kropotkin/">
+    <img src="images/cooperationgame.jpg?raw=true" style="height:200px;"/>
+  </a>
+</div>
 
 ## [Publications](/publications)
 [<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
