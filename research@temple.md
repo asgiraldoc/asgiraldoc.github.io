@@ -7,7 +7,7 @@ The two most significant human malaria parasites, <i>Plasmodium vivax</i> and <i
 </p>
 
 <p style="text-align:center;">
-  <img src="images/plasmodium_clades.png"  style="width:90%; max-width:750px;"/>
+  <img src="images/plasmodium_clades.png.png"  style="width:90%; max-width:750px;"/>
 </p>
 
 ### Uncovering Hidden Parasite Diversity in Turtles Through Genomics
