@@ -3,7 +3,7 @@
 
 ### A Tale of Two Clades: The Deep Evolutionary Divergence of Human Malarias
 <p align="justify">
-This review explains why the two main human malaria parasites, <i>P. vivax</i> and <i>P. falciparum</i>, are so biologically different. We show their distinct traits stem from a deep evolutionary split into two clades: subgenus <i>Plasmodium</i> and <i>Laverania</i>. My contribution was performing the phylogenomic reconstruction of the species tree from over 1,000 genes. This analysis provided the robust framework to visualize their ancient divergence and contextualize the unique molecular adaptations in each lineage. <a href="https://doi.org/10.1186/s12936-022-04130-9" target="_blank">[Publication]</a>
+This review explains why the two main human malaria parasites, <i>P. vivax</i> and <i>P. falciparum</i>, are so biologically different. We show their distinct traits stem from a deep evolutionary split into two clades: subgenus <i>Plasmodium</i> and <i>Laverania</i>. My contribution was performing the phylogenomic reconstruction of the species tree from over 1,028 genes. This analysis provided the robust framework to visualize their ancient divergence and contextualize the unique molecular adaptations in each lineage. <a href="https://doi.org/10.1186/s12936-022-04130-9" target="_blank">[Publication]</a>
 </p>
 
 <p style="text-align:center;">
