@@ -1,12 +1,21 @@
 ## My Research at Temple University
 
-### The Genome of an African Monkey Malaria Parasite Rewrites Evolutionary Timelines
+### A Machine Learning Pipeline for High-Throughput Sequencing of Malaria Parasites
 <p align="justify">
-As a central part of my doctoral research, I generated the first chromosome-level <strong><i>de novo</i> genome assembly</strong> for <i>Plasmodium gonderi</i>, a key malaria parasite of African monkeys. This high-quality genome served as a critical new resource to investigate the evolutionary origins of human malaria. My phylogenomic analyses placed the common ancestor of the human parasite <i>P. vivax</i> within the radiation of Asian primate malarias, strongly supporting an Asian origin for this widespread species. Furthermore, my time-tree analyses provided new estimates for major evolutionary events, dating the origin of the lethal <i>P. falciparum</i> clade to the same period as the radiation of its great ape hosts.
+Traditional DNA barcoding of malaria-like parasites often fails to detect complex co-infections and mixed-strain infections, limiting our understanding of their true biodiversity. To address this, we developed a new high-throughput sequencing protocol targeting the entire mitochondrial genome with PacBio HiFi long-reads. My primary contribution was the design and implementation of the <strong>HmtG-PacBio Pipeline</strong>, a novel bioinformatics workflow at the core of this method. This pipeline utilizes a <strong>machine learning model</strong> (a variational autoencoder) to process and automatically classify the long-read sequences, accurately sorting reads to identify distinct parasite haplotypes and species within a single complex sample. The method successfully characterized infections from diverse hosts—including birds, reptiles, and mammals—that were missed by standard techniques, providing a powerful and scalable new tool for biodiversity and population studies of haemosporidian parasites.
 </p>
 
 <p style="text-align:center;">
-  <img src="images/gonderi.png" style="width:95%; max-width:800px;"/>
+  <img src="images/pacbio_pipeline.png" alt="Workflow of the HmtG-PacBio Pipeline using machine learning" style="width:95%; max-width:600px;"/>
+</p>
+
+### The Genome of an African Monkey Malaria Parasite Rewrites Evolutionary Timelines
+<p align="justify">
+As a central part of my doctoral research, I generated the first chromosome-level <strong><i>de novo</i> genome assembly</strong> for <i>Plasmodium gonderi</i>, a key malaria parasite of African monkeys. This high-quality genome served as a critical new resource to investigate the evolutionary origins of human malaria. My phylogenomic analyses placed the common ancestor of the human parasite <i>P. vivax</i> within the radiation of Asian primate malarias, strongly supporting an Asian origin for this widespread species. Furthermore, my time-tree analyses provided new estimates for major evolutionary events, dating the origin of the lethal <i>P. falciparum</i> clade to the same period as the radiation of its great ape hosts. <a href="https://doi.org/10.1186/s12936-022-04130-9" target="_blank">[Publication]</a>
+</p>
+
+<p style="text-align:center;">
+  <img src="images/gonderi.png" style="width:95%; max-width:600px;"/>
 </p>
 
 ### A Tale of Two Clades: The Deep Evolutionary Divergence of Human Malarias
@@ -15,7 +24,7 @@ This review explains why the two main human malaria parasites, <i>P. vivax</i> a
 </p>
 
 <p style="text-align:center;">
-  <img src="images/plasmodium_clades.png.png"  style="width:90%; max-width:750px;"/>
+  <img src="images/plasmodium_clades.png.png"  style="width:90%; max-width:600px;"/>
 </p>
 
 ### Uncovering Hidden Parasite Diversity in Turtles Through Genomics
