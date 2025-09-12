@@ -15,7 +15,7 @@ As a central part of my doctoral research, I generated the first chromosome-leve
 </p>
 
 <p style="text-align:center;">
-  <img src="images/gonderi.png" style="width:95%; max-width:600px;"/>
+  <img src="images/gonderi.png" style="width:50%; max-width:400px;"/>
 </p>
 
 ### A Tale of Two Clades: The Deep Evolutionary Divergence of Human Malarias
@@ -24,7 +24,7 @@ This review explains why the two main human malaria parasites, <i>P. vivax</i> a
 </p>
 
 <p style="text-align:center;">
-  <img src="images/plasmodium_clades.png.png"  style="width:90%; max-width:600px;"/>
+  <img src="images/plasmodium_clades.png.png"  style="width:50%; max-width:400px;"/>
 </p>
 
 ### Uncovering Hidden Parasite Diversity in Turtles Through Genomics
