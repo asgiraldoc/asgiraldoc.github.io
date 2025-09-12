@@ -1,4 +1,4 @@
-# Doctoral Student
+# Doctoral Candidate
 ---
 
 ## [My Research at Temple University](/research@temple)
