@@ -6,7 +6,7 @@ Building on our development of a high-throughput sequencing pipeline, this study
 </p>
 
 <p style="text-align:center;">
-  <img src="images/owls.png" style="width:70%; max-width:400px;"/>
+  <img src="images/owls.png" style="width:75%; max-width:400px;"/>
 </p>
 
 ### A Machine Learning Pipeline for High-Throughput Sequencing of Malaria Parasites
@@ -24,7 +24,7 @@ As a central part of my doctoral research, I generated the first chromosome-leve
 </p>
 
 <p style="text-align:center;">
-  <img src="images/gonderi.png" style="width:70%; max-width:400px;"/>
+  <img src="images/gonderi.png" style="width:80%; max-width:400px;"/>
 </p>
 
 ### A Tale of Two Clades: The Deep Evolutionary Divergence of Human Malarias
