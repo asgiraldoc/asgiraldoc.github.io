@@ -6,7 +6,7 @@ Traditional DNA barcoding of malaria-like parasites often fails to detect comple
 </p>
 
 <p style="text-align:center;">
-  <img src="images/pacbio_pipeline.png" alt="Workflow of the HmtG-PacBio Pipeline using machine learning" style="width:95%; max-width:600px;"/>
+  <img src="images/pacbio_pipeline.png" style="width:70%; max-width:400px;"/>
 </p>
 
 ### The Genome of an African Monkey Malaria Parasite Rewrites Evolutionary Timelines
