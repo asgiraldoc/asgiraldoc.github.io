@@ -1,5 +1,14 @@
 ## My Research at Temple University
 
+### Applying a Novel Sequencing Pipeline to Uncover Parasite Diversity in Owls
+<p align="justify">
+Building on our development of a high-throughput sequencing pipeline, this study applied our new method to a real-world biological problem: uncovering the hidden diversity of malaria-like parasites in North American owls. By analyzing the complete mitochondrial genomes using our PacBio HiFi protocol, we successfully detected complex mixed infections and revealed a rich diversity of nine distinct parasite lineages, including two new to science. A key discovery was linking the common genetic lineage hSTVAR01 to the morphospecies <strong><i>Haemoproteus syrnii</i></strong> for the first time. Our data also revealed that what was previously thought to be a single species is actually a complex of multiple cryptic species, demonstrating the power of high-quality genomic data to resolve hidden biodiversity. <a href="https://doi.org/10.21203/rs.3.rs-7235426/v1" target="_blank">[Publication]</a>
+</p>
+
+<p style="text-align:center;">
+  <img src="images/owls.png" style="width:70%; max-width:400px;"/>
+</p>
+
 ### A Machine Learning Pipeline for High-Throughput Sequencing of Malaria Parasites
 <p align="justify">
 Traditional DNA barcoding of malaria-like parasites often fails to detect complex co-infections and mixed-strain infections, limiting our understanding of their true biodiversity. To address this, we developed a new high-throughput sequencing protocol targeting the entire mitochondrial genome with PacBio HiFi long-reads. My primary contribution was the design and implementation of the <strong>HmtG-PacBio Pipeline</strong>, a novel bioinformatics workflow at the core of this method. This pipeline utilizes a <strong>machine learning model</strong> (a variational autoencoder) to process and automatically classify the long-read sequences, accurately sorting reads to identify distinct parasite haplotypes and species within a single complex sample. The method successfully characterized infections from diverse hosts—including birds, reptiles, and mammals—that were missed by standard techniques, providing a powerful and scalable new tool for biodiversity and population studies of haemosporidian parasites. <a href="https://doi.org/10.1186/s12936-024-04961-8" target="_blank">[Publication]</a>
