@@ -1,12 +1,17 @@
 # Doctoral Candidate
 ---
 
-## [My Research at Temple University 🦉](/research@temple)
+## <a href="/research@temple" style="color:black; text-decoration:none;">
+     My Research at Temple University 🦉
+   </a>
+
 [<center><img src="images/TU.png?raw=true" height="80%" width="80%"/></center>](/research@temple)
 
 
 
-## [My Research at National U. of Colombia 🍃](/research@unal)
+<a href="/research@unal" style="color:black; text-decoration:none;">
+  My Research at National U. of Colombia 🍃
+</a>
 [<center><img src="images/gerph.png?raw=true" height="75%" width="75%"/></center>](/research@unal)
 
 ## Bioinformatic Tutorials 🍉
@@ -17,10 +22,11 @@
 </a>
 
 
-## [Publications](/publications)
+## <a href="/publications" style="color:black; text-decoration:none;">
+     Publications
+   </a>
+
 [<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
-
-
 
 
 ## Academic projects
@@ -34,8 +40,10 @@
   </a>
 </div>
 
+## <a href="/aboutme" style="color:black; text-decoration:none;">
+     About me
+   </a>
 
-## [About me](/aboutme)
 [<center><img src="images/story.png?raw=true" height="60%" width="60%"/></center>](/aboutme)
 
 <!--## [*Curriculum vitae*](/pdf/CV_Axl-v.2.pdf)-->
