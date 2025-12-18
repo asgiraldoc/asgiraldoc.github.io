@@ -15,7 +15,10 @@
 
 ## Bioinformatic Tutorials
 
-<a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git">**Macro-evolutionary Pangenomics: A *Plasmodium* Case Study**</a>
+<a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git"
+   style="color:#1e6bd6; text-decoration:none; font-weight:bold;">
+   Macro-evolutionary Pangenomics: A <i>Plasmodium</i> Case Study
+</a>
 
 
 ## Academic projects
