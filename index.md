@@ -14,7 +14,7 @@
 
 * <a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git" style="color:#0362fc; text-decoration:none; font-weight:bold;">Macro-evolutionary Pangenomics: A <i>Plasmodium</i> Case Study</a>
 
-## Bioinformatic Tools 🧑🏻‍💻
+## Bioinformatic Tools 🧙🏻‍♂️
 
 * <a href="https://github.com/asgiraldoc/HmtG-PacBio-Pipeline.git" style="color:#0362fc; text-decoration:none; font-weight:bold;">HmtG-PacBio-Pipeline</a>
 
