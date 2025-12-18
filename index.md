@@ -13,10 +13,10 @@
 ## [Publications](/publications)
 [<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
 
-## Bioinformatic Tutorials
+## Bioinformatic Tutorials 🍉
 
 <a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git"
-   style="color:#1e6bd6; text-decoration:none; font-weight:bold;">
+   style="color:#ff6c03; text-decoration:none; font-weight:bold;">
    Macro-evolutionary Pangenomics: A <i>Plasmodium</i> Case Study
 </a>
 
