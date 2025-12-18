@@ -9,16 +9,18 @@
 ## [My Research at National U. of Colombia 🍃](/research@unal)
 [<center><img src="images/gerph.png?raw=true" height="75%" width="75%"/></center>](/research@unal)
 
-
-## [Publications](/publications)
-[<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
-
 ## Bioinformatic Tutorials 🍉
 
 <a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git"
    style="color:#0362fc; text-decoration:none; font-weight:bold;">
    Macro-evolutionary Pangenomics: A <i>Plasmodium</i> Case Study
 </a>
+
+
+## [Publications](/publications)
+[<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
+
+
 
 
 ## Academic projects
