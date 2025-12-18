@@ -7,9 +7,7 @@
 
 
 
-<a href="/research@unal" style="color:black; text-decoration:none;">
-  My Research at National U. of Colombia 🍃
-</a>
+<a href="/research@unal" style="color:black; text-decoration:none;">My Research at National U. of Colombia 🍃</a>
 [<center><img src="images/gerph.png?raw=true" height="75%" width="75%"/></center>](/research@unal)
 
 ## Bioinformatic Tutorials 🍉
