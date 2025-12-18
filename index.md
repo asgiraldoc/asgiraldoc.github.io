@@ -14,7 +14,7 @@
 
 * <a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git" style="color:#0362fc; text-decoration:none; font-weight:bold;">Macro-evolutionary Pangenomics: A <i>Plasmodium</i> Case Study</a>
 * <a href="https://github.com/asgiraldoc/MaximumLikelihood-EvolutionaryGeneticsPhylogenetics.git" style="color:#0362fc; text-decoration:none; font-weight:bold;">Phylogenetic Substitution Model Comparison in Orthopoxviruses</a>
-* <a href="https://github.com/asgiraldoc/Leptospira_GenomeAssembly_Workshop.git" style="color:#0362fc; text-decoration:none; font-weight:bold;">Hybrid Genome Assembly Tutorial: *Leptospira interrogans* serovar Copenhageni</a>
+* <a href="https://github.com/asgiraldoc/Leptospira_GenomeAssembly_Workshop.git" style="color:#0362fc; text-decoration:none; font-weight:bold;">Hybrid Genome Assembly: *Leptospira interrogans* serovar Copenhageni</a>
 
 ## Bioinformatic Tools 🧙🏻‍♂️
 
