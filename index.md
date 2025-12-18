@@ -24,9 +24,11 @@
   </a>
 </div>
 
+
 ## Bioinformatic Tutorials
 
 <a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git">**Macro-evolutionary Pangenomics: A *Plasmodium* Case Study**</a>
+
 
 ## [About me](/aboutme)
 [<center><img src="images/story.png?raw=true" height="60%" width="60%"/></center>](/aboutme)
