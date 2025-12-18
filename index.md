@@ -16,7 +16,7 @@
 ## Bioinformatic Tutorials 🍉
 
 <a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git"
-   style="color:#ff6c03; text-decoration:none; font-weight:bold;">
+   style="color:#03ffff; text-decoration:none; font-weight:bold;">
    Macro-evolutionary Pangenomics: A <i>Plasmodium</i> Case Study
 </a>
 
