@@ -13,6 +13,11 @@
 ## [Publications](/publications)
 [<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
 
+## Bioinformatic Tutorials
+
+<a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git">**Macro-evolutionary Pangenomics: A *Plasmodium* Case Study**</a>
+
+
 ## Academic projects
 
 <div style="display:flex; justify-content:center; gap:20px;">
@@ -23,11 +28,6 @@
     <img src="images/cooperationgame.jpg?raw=true" style="height:175px;"/>
   </a>
 </div>
-
-
-## Bioinformatic Tutorials
-
-<a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git">**Macro-evolutionary Pangenomics: A *Plasmodium* Case Study**</a>
 
 
 ## [About me](/aboutme)
