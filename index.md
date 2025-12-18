@@ -13,6 +13,7 @@
 ## Bioinformatic Tutorials 🍉
 
 * <a href="https://github.com/asgiraldoc/Macro-evolutionary-Pangenomics-of-the-Plasmodium-monkey-clade.git" style="color:#0362fc; text-decoration:none; font-weight:bold;">Macro-evolutionary Pangenomics: A <i>Plasmodium</i> Case Study</a>
+* <a href="https://github.com/asgiraldoc/MaximumLikelihood-EvolutionaryGeneticsPhylogenetics.git" style="color:#0362fc; text-decoration:none; font-weight:bold;">Phylogenetic Substitution Model Comparison in Orthopoxviruses</a>
 
 ## Bioinformatic Tools 🧙🏻‍♂️
 
