@@ -1,16 +1,16 @@
 # Doctoral Candidate
 ---
 
-## [My Research at Temple University](/research@temple)
+## [My Research at Temple University 🦉](/research@temple)
 [<center><img src="images/TU.png?raw=true" height="80%" width="80%"/></center>](/research@temple)
 
 
 
-## [My Research at National U. of Colombia](/research@unal)
+## [My Research at National U. of Colombia 🍃](/research@unal)
 [<center><img src="images/gerph.png?raw=true" height="75%" width="75%"/></center>](/research@unal)
 
 
-## [Publications](/publications)
+## [Publications 📚](/publications)
 [<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
 
 ## Bioinformatic Tutorials 🍉
@@ -21,7 +21,7 @@
 </a>
 
 
-## Academic projects
+## Academic projects 🤓
 
 <div style="display:flex; justify-content:center; gap:20px;">
   <a href="/iWebPage-pokemon/">
