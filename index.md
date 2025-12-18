@@ -34,7 +34,10 @@
   </a>
 </div>
 
-<a href="/aboutme" style="color:black; text-decoration:none;">About me</a>
+## <a href="/aboutme" style="color:black; text-decoration:none;">
+     About me
+   </a>
+
 
 [<center><img src="images/story.png?raw=true" height="60%" width="60%"/></center>](/aboutme)
 
