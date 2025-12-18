@@ -10,7 +10,7 @@
 [<center><img src="images/gerph.png?raw=true" height="75%" width="75%"/></center>](/research@unal)
 
 
-## [Publications 📚](/publications)
+## [Publications](/publications)
 [<center><img src="images/publication1.png?raw=true" height="45%" width="45%"/></center>](/publications)
 
 ## Bioinformatic Tutorials 🍉
@@ -21,7 +21,7 @@
 </a>
 
 
-## Academic projects 🤓
+## Academic projects
 
 <div style="display:flex; justify-content:center; gap:20px;">
   <a href="/iWebPage-pokemon/">
