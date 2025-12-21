@@ -6,9 +6,18 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://igem.temple.edu/people/person/c0ca56d9e60be58ca9380514ed8ac51d" style="color: #B00000"><b>Escalante's Lab</b>  👨🏼‍🔬👨🏽‍💻</a>
   <br>
-  <a href="https://igem.temple.edu/" style="color: #B00000"><b>Department of Biology, iGEM</b> 📊👩🏻‍⚕️ </a>
-  <br>
-  <a href="https://www.temple.edu/" style="color: #B00000"><b>Temple University</b> 🏫🇺🇸 </a> 
+  <a href="https://igem.temple.edu/" style="color: #B00000">
+    <b>Department of Biology, iGEM</b> 📊👩🏻‍⚕️
+  </a>
+  
+  <div style="width:100%; text-align:center; margin:6px 0;">
+    <span style="display:inline-block; width:40px; border-bottom:2px solid #B00000;"></span>
+  </div>
+  
+  <a href="https://www.temple.edu/" style="color: #B00000">
+    <b>Temple University</b> 🏫🇺🇸
+  </a>
+
 
   <br>
   <a href="https://ciencias.bogota.unal.edu.co/grupos_de_investigacion/biologia/gerph/" style="color: #B00000"><b>Universidad Nacional de Colombia, GERPH</b> 🎓🇨🇴 </a> 
