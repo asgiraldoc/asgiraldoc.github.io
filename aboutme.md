@@ -8,7 +8,7 @@
 
 
 ### More on me
-<p align="justify">  I have found that all things have their positive and negative sides throughout my life, so I have always tried to explore all kinds of things. For example, my musical tastes range from death-gore metal to Colombian folk music. Likewise, with sports, I am passionate about chess and soccer (my team is Millonarios FC). Also, I've always considered myself a voracious reader of philosophy, fantasy, and classic literature. However, my brain shuts down entirely when I've tried to explore genres such as self-improvement or pseudo-science.
+<p align="justify">  I have found that all things have their positive and negative sides throughout my life, so I have always tried to explore all kinds of things. For example, my musical tastes range from death-gore metal to Colombian folk music. Likewise, with sports, I am passionate about chess and soccer (my team is Millonarios FC-SOLO MILLOS LOKA). Also, I've always considered myself a voracious reader of philosophy, fantasy, and classic literature. However, my brain shuts down entirely when I've tried to explore genres such as self-improvement or pseudo-science.
    <br><br>
 Finally, I have been interested in tattoos for a few years now. I currently have 16 tattoos that represent my experiences, my beliefs, my tastes. In short, my body is now a book where I write my life. 
 </p>
