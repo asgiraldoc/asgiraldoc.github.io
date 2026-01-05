@@ -1,8 +1,9 @@
 title: Axl S. Cepeda
 logo: "/images/profile.jpg?raw=true"
-
+url: "https://asgiraldoc.github.io"
+image: "/images/profile.jpg"
 description: >
-  Ph.D. Candidate at Temple University (Escalante's Lab). Focusing on ecology, epidemiology, and evolution of infectious diseases, mainly Plasmodium spp.
+  Ph.D. Candidate at Temple University (Escalante-Pacheco Lab). Focusing on ecology, epidemiology, and evolution of infectious diseases, mainly Plasmodium spp.
 
 sidebar_bio: >
   <p style="font-size:12px; text-align: justify;">
@@ -17,6 +18,7 @@ sidebar_bio: >
     <a href="https://ciencias.bogota.unal.edu.co/grupos_de_investigacion/biologia/gerph/" style="color: #94B43B"><b>U. Nacional de Colombia, GERPH</b> 🎓🇨🇴 </a> 
   </p>
   <a href="https://www.linkedin.com/in/AxlCepeda420">View My LinkedIn Profile</a> 
+  <br>
   <a href="https://scholar.google.com/citations?user=Mxpv7hMAAAAJ&hl=en&oi=ao">View My Google Scholar Profile</a>
 
 google_analytics: G-9D67NSSH9Y
