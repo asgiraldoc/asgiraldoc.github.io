@@ -1,0 +1,13 @@
+{
+  "title": "Darwin vs Kropotkin Lab",
+  "subtitle": "Two models, one question: what makes cooperation stick?",
+  "controls": "Controls",
+  "outputs": "Outputs",
+  "mode": "Mode",
+  "voice": "Lens / preset family",
+  "preset": "Preset",
+  "presetHint": "Pick one to load sensible parameters.",
+  "params": "Parameters",
+  "paramNote": "These are educational models: good for intuition, not for publishing.",
+  "interpret": "Interpretation"
+}

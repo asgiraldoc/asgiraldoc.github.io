@@ -1,0 +1,13 @@
+{
+  "title": "Laboratorio Darwin vs Kropotkin",
+  "subtitle": "Dos modelos, una pregunta: ¿qué hace que la cooperación se sostenga?",
+  "controls": "Controles",
+  "outputs": "Resultados",
+  "mode": "Modo",
+  "voice": "Lente / familia de presets",
+  "preset": "Preset",
+  "presetHint": "Elige uno para cargar parámetros razonables.",
+  "params": "Parámetros",
+  "paramNote": "Modelos educativos: buenos para intuición, no para publicar.",
+  "interpret": "Interpretación"
+}

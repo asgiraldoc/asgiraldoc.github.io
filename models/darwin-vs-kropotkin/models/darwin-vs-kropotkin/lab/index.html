@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Darwin vs Kropotkin Lab</title>
+  <link rel="stylesheet" href="./lab.css"/>
+</head>
+<body>
+  <div class="lab">
+    <header>
+      <div>
+        <h1 id="t_title">Darwin vs Kropotkin Lab</h1>
+        <p class="sub" id="t_subtitle">Two models, one question: what makes cooperation stick?</p>
+      </div>
+      <div class="badge" id="t_langBadge">EN</div>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <div class="card-h">
+          <h2 id="t_controls">Controls</h2>
+          <span class="badge" id="t_status">Paused</span>
+        </div>
+        <div class="card-b">
+          <div class="controls">
+            <div class="row">
+              <label for="mode" id="t_mode">Mode</label>
+              <select id="mode">
+                <option value="ecology">Ecology (gLV + saturating mutualism)</option>
+                <option value="moran">Evolutionary game (Moran process)</option>
+              </select>
+            </div>
+
+            <div class="row">
+              <label for="voice" id="t_voice">Lens / preset family</label>
+              <select id="voice">
+                <option value="darwin">Darwin / competition emphasis</option>
+                <option value="kropotkin">Kropotkin / mutual aid emphasis</option>
+                <option value="contemporary">Contemporary synthesis (mechanisms + institutions)</option>
+              </select>
+            </div>
+
+            <div class="row">
+              <label for="preset" id="t_preset">Preset</label>
+              <select id="preset"></select>
+              <div class="small" id="t_presetHint">Pick one to load sensible parameters.</div>
+            </div>
+
+            <div class="btns">
+              <button id="runBtn">Run</button>
+              <button class="secondary" id="stepBtn">Step</button>
+              <button class="secondary" id="shockBtn">Shock</button>
+              <button class="secondary" id="resetBtn">Reset</button>
+            </div>
+
+            <details>
+              <summary id="t_params">Parameters</summary>
+              <div class="row" style="margin-top:0.6rem;">
+                <label for="seed">Seed</label>
+                <input id="seed" type="number" value="123" min="0" step="1"/>
+              </div>
+
+              <div id="paramsEcology">
+                <div class="row">
+                  <label for="species">Species count</label>
+                  <input id="species" type="number" value="6" min="2" max="30" step="1"/>
+                </div>
+                <div class="row">
+                  <label for="rBase">r (base)</label>
+                  <input id="rBase" type="number" value="0.35" step="0.05"/>
+                </div>
+                <div class="row">
+                  <label for="KBase">K (base)</label>
+                  <input id="KBase" type="number" value="120" step="10"/>
+                </div>
+                <div class="row">
+                  <label for="alpha">Competition α</label>
+                  <input id="alpha" type="number" value="0.7" step="0.05"/>
+                </div>
+                <div class="row">
+                  <label for="beta">Mutual aid β</label>
+                  <input id="beta" type="number" value="0.8" step="0.05"/>
+                </div>
+                <div class="row">
+                  <label for="halfSat">Half-saturation H</label>
+                  <input id="halfSat" type="number" value="40" step="5"/>
+                </div>
+                <div class="row">
+                  <label for="noise">Environmental noise σ</label>
+                  <input id="noise" type="number" value="0.03" step="0.01"/>
+                </div>
+                <div class="row">
+                  <label for="netEcology">Network</label>
+                  <select id="netEcology">
+                    <option value="complete">Complete (all-to-all)</option>
+                    <option value="ring">Ring (lattice)</option>
+                    <option value="random">Random</option>
+                    <option value="modular">Modular communities</option>
+                  </select>
+                </div>
+              </div>
+
+              <div id="paramsMoran" style="display:none;">
+                <div class="row">
+                  <label for="Npop">Population size N</label>
+                  <input id="Npop" type="number" value="120" min="10" max="1000" step="10"/>
+                </div>
+                <div class="row">
+                  <label for="game">Game</label>
+                  <select id="game">
+                    <option value="pd">Prisoner’s dilemma</option>
+                    <option value="pgg">Public goods (commons)</option>
+                  </select>
+                </div>
+                <div class="row">
+                  <label for="b">Benefit b</label>
+                  <input id="b" type="number" value="3" step="0.25"/>
+                </div>
+                <div class="row">
+                  <label for="c">Cost c</label>
+                  <input id="c" type="number" value="1" step="0.25"/>
+                </div>
+                <div class="row">
+                  <label for="sel">Selection intensity w</label>
+                  <input id="sel" type="number" value="0.5" min="0" max="1" step="0.05"/>
+                </div>
+                <div class="row">
+                  <label for="mu">Mutation μ</label>
+                  <input id="mu" type="number" value="0.001" min="0" max="0.1" step="0.001"/>
+                </div>
+                <div class="row">
+                  <label for="netMoran">Structure</label>
+                  <select id="netMoran">
+                    <option value="wellmixed">Well-mixed</option>
+                    <option value="ring">Ring (k=2)</option>
+                    <option value="smallworld">Small-world</option>
+                    <option value="random">Random</option>
+                  </select>
+                </div>
+                <div class="row">
+                  <label for="institution">Institution strength (punish defect)</label>
+                  <input id="institution" type="number" value="0.0" min="0" max="2" step="0.1"/>
+                </div>
+              </div>
+
+              <div class="small" id="t_paramNote" style="margin-top:0.6rem;">
+                These are educational models: good for intuition, not for publishing.
+              </div>
+            </details>
+
+            <div class="metrics" id="metrics"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-h">
+          <h2 id="t_outputs">Outputs</h2>
+          <span class="badge" id="t_step">t = 0</span>
+        </div>
+        <div class="canvasWrap">
+          <canvas id="chart1"></canvas>
+        </div>
+        <div class="canvasWrap" style="padding-top:0;">
+          <canvas id="chart2"></canvas>
+        </div>
+        <div class="card-b" style="padding-top:0;">
+          <details>
+            <summary id="t_interpret">Interpretation</summary>
+            <div class="small" id="interpretBox" style="margin-top:0.6rem;"></div>
+          </details>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Chart.js (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script type="module" src="./lab.js"></script>
+</body>
+</html>

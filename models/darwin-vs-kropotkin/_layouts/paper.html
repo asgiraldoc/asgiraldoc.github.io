@@ -1,0 +1,81 @@
+---
+---
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }}{% if site.title %} · {{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_newlines | escape }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/paper.css' | relative_url }}" />
+
+  <!-- KaTeX (fast math rendering, works on GitHub Pages) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+
+  <script defer src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/paper.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/dvk-modal.js' | relative_url }}"></script>
+</head>
+
+<body>
+  <header class="paper-header">
+    <div class="paper-header__inner">
+      <a class="paper-brand" href="{{ '/' | relative_url }}">{{ site.title | default: 'Site' }}</a>
+      <nav class="paper-nav" aria-label="Site">
+        <a href="{{ '/models' | relative_url }}">Models</a>
+        <button class="paper-lang" type="button" data-lang-toggle aria-label="Toggle language">EN · ES</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="paper-shell">
+    <main class="paper-main">
+      <article class="paper-article" id="paper-article">
+        {{ content }}
+      </article>
+    </main>
+
+    <aside class="paper-aside" aria-label="On this page">
+      <div class="paper-aside__box">
+        <div class="paper-aside__title">On this page</div>
+        <nav id="paper-toc" class="paper-toc"></nav>
+      </div>
+      <div class="paper-aside__box">
+        <div class="paper-aside__title">Quick actions</div>
+        <div class="paper-actions">
+          <button type="button" class="btn" data-open-debate>Open debate</button>
+          <button type="button" class="btn btn--ghost" data-scroll-lab>Jump to lab</button>
+        </div>
+        <p class="paper-aside__hint">
+          Tip: the debate buttons can send presets to the lab.
+        </p>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="paper-footer">
+    <div class="paper-footer__inner">
+      <span>© {{ site.time | date: '%Y' }} {{ site.title | default: 'Site' }}.</span>
+      <span class="paper-footer__sep">·</span>
+      <a href="https://github.com/{{ site.github.repository_nwo }}" target="_blank" rel="noopener">Source</a>
+    </div>
+  </footer>
+
+  <script>
+    // KaTeX auto-render (after DOM is ready)
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.renderMathInElement) {
+        window.renderMathInElement(document.body, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false }
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+</body>
+</html>
