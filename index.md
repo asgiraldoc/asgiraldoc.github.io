@@ -18,7 +18,7 @@
 
 ## Bioinformatic Tools 🧙🏻‍♂️
 
-* <a href="https://github.com/asgiraldoc/HmtG-PacBio-Pipeline.git" style="color:#0362fc; text-decoration:none; font-weight:bold;">HmtG-PacBio-Pipeline</a>
+* <a href="https://asgiraldoc.github.io/HmtG-PacBio-Pipeline/index.html" style="color:#0362fc; text-decoration:none; font-weight:bold;">HmtG-PacBio-Pipeline</a>
 * <a href="https://github.com/asgiraldoc/BioLabTemple/tree/main/PAL2NAL" style="color:#0362fc; text-decoration:none; font-weight:bold;">PAL2NAL: A Codon-Based Alignment</a>
 
 ## <a href="/publications" style="color:black; text-decoration:none;">Publications</a>
