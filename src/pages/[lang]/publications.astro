@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import PubList from '../../components/PubList.astro';
+import { site, langs, type Lang } from '../../config';
+import { ui } from '../../i18n/content';
+import { publications } from '../../lib/publications';
+
+export const getStaticPaths = () => langs.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const copy = {
+  en: 'Peer-reviewed articles and preprints. My name appears in bold. The list is generated from a single data file.',
+  es: 'Artículos revisados por pares y preprints. Mi nombre aparece en negrita. La lista se genera desde un único archivo de datos.',
+};
+---
+
+<Base lang={lang} page="publications" title={ui.nav.publications[lang]}>
+  <div class="wrap page-head">
+    <p class="eyebrow">{publications.length} {lang === 'en' ? 'items' : 'registros'}</p>
+    <h1>{ui.nav.publications[lang]}</h1>
+    <p class="lead">{copy[lang]}</p>
+    <div class="btns"><a class="btn" href={site.links.scholar} rel="noopener">{ui.scholar[lang]} →</a></div>
+  </div>
+  <div class="wrap" style="padding-bottom:3rem"><PubList lang={lang} items={publications} /></div>
+</Base>

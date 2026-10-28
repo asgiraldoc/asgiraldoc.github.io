@@ -1,0 +1,40 @@
+---
+import { it } from '../../lib/taxa';
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import { langs, type Lang } from '../../config';
+import { projects, projectsIntro, ui } from '../../i18n/content';
+import game from '../../assets/thumb-game.jpg';
+import dvk from '../../assets/thumb-dvk.jpg';
+
+export const getStaticPaths = () => langs.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const thumbs = { game, dvk };
+const alts = {
+  game: { en: 'Screenshot of the pixel-art exploration game.', es: 'Captura del juego de exploración en pixel art.' },
+  dvk: { en: 'Preview of the Darwin vs Kropotkin interactive lab.', es: 'Vista previa del laboratorio interactivo Darwin vs Kropotkin.' },
+};
+---
+
+<Base lang={lang} page="projects" title={ui.nav.projects[lang]}>
+  <div class="wrap page-head">
+    <p class="eyebrow">{lang === 'en' ? 'Teaching · Outreach' : 'Docencia · Divulgación'}</p>
+    <h1>{ui.nav.projects[lang]}</h1>
+    <p class="lead">{projectsIntro[lang]}</p>
+  </div>
+  <div class="wrap" style="padding-bottom:3rem">
+    {projects.map((p) => (
+      <article class="project">
+        <a class="thumb" href={p.href}>
+          <Image src={thumbs[p.id as 'game' | 'dvk']} alt={alts[p.id as 'game' | 'dvk'][lang]} widths={[320, 640]} sizes="20rem" />
+        </a>
+        <div>
+          <h2 set:html={it(p.title[lang])} />
+          <p style="margin-top:.8rem" set:html={it(p.description[lang])} />
+          {p.credit[lang] && <p class="credit">{p.credit[lang]}</p>}
+          <div class="btns" style="margin-top:1.2rem"><a class="btn" href={p.href}>{p.cta[lang]} →</a></div>
+        </div>
+      </article>
+    ))}
+  </div>
+</Base>

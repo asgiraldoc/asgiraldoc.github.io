@@ -1,0 +1,30 @@
+---
+import { it } from '../../lib/taxa';
+import Base from '../../layouts/Base.astro';
+import { langs, type Lang } from '../../config';
+import { lines, researchIntro, ui } from '../../i18n/content';
+
+export const getStaticPaths = () => langs.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+// TODO: add real figures (not generated illustrations) per research line, e.g. the P. gonderi time-tree and the HmtG pipeline schematic.
+---
+
+<Base lang={lang} page="research" title={ui.nav.research[lang]}>
+  <div class="wrap page-head">
+    <p class="eyebrow">{ui.lines[lang]}</p>
+    <h1>{ui.nav.research[lang]}</h1>
+    <p class="lead">{researchIntro[lang]}</p>
+  </div>
+  <div class="wrap" style="padding-bottom:3rem">
+    {lines.map((l, i) => (
+      <article class="research-item" id={l.id}>
+        <span class="idx">0{i + 1}</span>
+        <div>
+          <h2 set:html={it(l.title[lang])} />
+          <div class="prose">{l.body.map((p) => <p set:html={it(p[lang])} />)}</div>
+          <ul class="tags">{l.tags.map((t) => <li class="tag" set:html={it(t)} />)}</ul>
+        </div>
+      </article>
+    ))}
+  </div>
+</Base>

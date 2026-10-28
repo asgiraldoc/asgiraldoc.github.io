@@ -1,0 +1,52 @@
+---
+import { it } from '../../lib/taxa';
+import Base from '../../layouts/Base.astro';
+import PhyloAlignment from '../../components/PhyloAlignment.astro';
+import PubList from '../../components/PubList.astro';
+import { site, langs, type Lang } from '../../config';
+import { home, lines, ui } from '../../i18n/content';
+import { publications } from '../../lib/publications';
+
+export const getStaticPaths = () => langs.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+---
+
+<Base lang={lang} page="">
+  <section class="hero wrap">
+      <p class="eyebrow">{home.eyebrow[lang]}</p>
+      <h1>Axl S. Cepeda</h1>
+      <p class="role">{home.role[lang]}</p>
+      <p class="statement" set:html={it(home.statement[lang])} />
+      <div class="btns">
+        <a class="btn primary" href={site.cv}>{ui.downloadCv[lang]}</a>
+        <a class="btn" href={site.links.scholar} rel="noopener">{ui.scholar[lang]}</a>
+        <a class="btn" href={site.links.github} rel="noopener">GitHub</a>
+        <a class="btn" href={`mailto:${site.email}`}>{ui.email[lang]}</a>
+      </div>
+  </section>
+
+  <PhyloAlignment lang={lang} />
+
+  <section class="block wrap">
+    <div class="sec-label"><span class="num">01</span><h2>{ui.lines[lang]}</h2></div>
+    <div class="lines">
+      {lines.map((l, i) => (
+        <article class="line">
+          <span class="idx">0{i + 1}</span>
+          <h3 set:html={it(l.title[lang])} />
+          <p set:html={it(l.summary[lang])} />
+          <ul class="tags">{l.tags.slice(0, 3).map((t) => <li class="tag" set:html={it(t)} />)}</ul>
+          <a class="more" href={`/${lang}/research/#${l.id}`}>{ui.readMore[lang]} →</a>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="block wrap">
+    <div class="sec-label pub-head">
+      <div style="display:flex;gap:.8rem;align-items:baseline"><span class="num" style="font:500 .75rem var(--mono);color:var(--accent)">02</span><h2>{ui.selected[lang]}</h2></div>
+      <a href={`/${lang}/publications/`} class="btn">{ui.viewAll[lang]} →</a>
+    </div>
+    <PubList lang={lang} items={publications.slice(0, 4)} />
+  </section>
+</Base>

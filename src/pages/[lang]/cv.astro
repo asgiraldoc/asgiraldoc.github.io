@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import { site, langs, type Lang } from '../../config';
+import { cvPage, ui, type CvItem } from '../../i18n/content';
+import { it } from '../../lib/taxa';
+
+export const getStaticPaths = () => langs.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const sections: { head: string; items: CvItem[] }[] = [
+  { head: cvPage.experience[lang], items: cvPage.experienceItems },
+  { head: cvPage.education[lang], items: cvPage.educationItems },
+  { head: cvPage.projects[lang], items: cvPage.projectItems },
+];
+---
+
+<Base lang={lang} page="cv" title="CV">
+  <div class="wrap page-head">
+    <p class="eyebrow">Curriculum vitae</p>
+    <h1>CV</h1>
+    <p class="lead">{cvPage.intro[lang]}</p>
+    <div class="btns"><a class="btn primary" href={site.cv}>{ui.downloadCv[lang]}</a></div>
+  </div>
+  <div class="wrap" style="padding-bottom:3rem">
+    {sections.map((sec, n) => (
+      <>
+        <h2 class="sub" style={n === 0 ? 'margin-top:1rem' : ''}>{sec.head}</h2>
+        <ul class="timeline">
+          {sec.items.map((x) => (
+            <li>
+              <span class="when">{x.when}</span>
+              <div>
+                <span class="what" set:html={it(x.title[lang])} />
+                <span class="where">{x.place}</span>
+                {x.note && <span class="note" set:html={it(x.note[lang])} />}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </>
+    ))}
+  </div>
+</Base>

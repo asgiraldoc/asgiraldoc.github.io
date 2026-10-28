@@ -1,0 +1,43 @@
+---
+import { it } from '../../lib/taxa';
+import Base from '../../layouts/Base.astro';
+import { langs, type Lang } from '../../config';
+import { tools, tutorials, softwareIntro, ui } from '../../i18n/content';
+
+export const getStaticPaths = () => langs.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const tut = { en: 'Tutorials and workshops', es: 'Tutoriales y talleres' };
+---
+
+<Base lang={lang} page="software" title={ui.nav.software[lang]}>
+  <div class="wrap page-head">
+    <p class="eyebrow">Python · R · Galaxy</p>
+    <h1>{ui.nav.software[lang]}</h1>
+    <p class="lead">{softwareIntro[lang]}</p>
+  </div>
+  <div class="wrap" style="padding-bottom:3rem">
+    <div class="cards">
+      {tools.map((t) => (
+        <article class="card">
+          <span class="kind">{t.kind[lang]}</span>
+          <h3>{t.name}</h3>
+          <p set:html={it(t.description[lang])} />
+          <ul class="tags">{t.tags.map((x) => <li class="tag" set:html={it(x)} />)}</ul>
+          <a class="go" href={t.href} rel="noopener">{t.cta[lang]} →</a>
+        </article>
+      ))}
+    </div>
+    <h2 class="sub">{tut[lang]}</h2>
+    <div class="cards">
+      {tutorials.map((t) => (
+        <article class="card">
+          <span class="kind">{t.kind[lang]}</span>
+          <h3>{t.name}</h3>
+          <p set:html={it(t.description[lang])} />
+          <ul class="tags">{t.tags.map((x) => <li class="tag" set:html={it(x)} />)}</ul>
+          <a class="go" href={t.href} rel="noopener">{t.cta[lang]} →</a>
+        </article>
+      ))}
+    </div>
+  </div>
+</Base>

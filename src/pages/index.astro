@@ -1,0 +1,17 @@
+---
+// Root: send visitors to their language. Spanish browsers go to /es/, everyone else to /en/.
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Axl S. Cepeda</title>
+    <link rel="canonical" href="https://asgiraldoc.github.io/en/" />
+    <meta http-equiv="refresh" content="0; url=/en/" />
+    <script is:inline>
+      var l = (navigator.language || 'en').slice(0, 2);
+      location.replace(l === 'es' ? '/es/' : '/en/');
+    </script>
+  </head>
+  <body><a href="/en/">English</a> · <a href="/es/">Español</a></body>
+</html>

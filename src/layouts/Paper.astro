@@ -1,0 +1,85 @@
+---
+import '../styles/paper.css';
+import { site } from '../config';
+
+const { frontmatter } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{frontmatter.title} · {site.name}</title>
+    <meta name="description" content={frontmatter.description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous" />
+    <script is:inline defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script is:inline defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${site.gaId}`}></script>
+    <script is:inline define:vars={{ gaId: site.gaId }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', gaId);
+    </script>
+  </head>
+  <body>
+    <header class="paper-header">
+      <div class="paper-header__inner">
+        <a class="paper-brand" href="/en/">{site.name}</a>
+        <nav class="paper-nav" aria-label="Site">
+          <a href="/en/projects/">Projects</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="paper-shell">
+      <main class="paper-main">
+        <article class="paper-article" id="paper-article">
+          <slot />
+        </article>
+      </main>
+
+      <aside class="paper-aside" aria-label="On this page">
+        <div class="paper-aside__box">
+          <div class="paper-aside__title">On this page</div>
+          <nav id="paper-toc" class="paper-toc"></nav>
+        </div>
+        <div class="paper-aside__box">
+          <div class="paper-aside__title">Quick actions</div>
+          <div class="paper-actions">
+            <button type="button" class="btn" data-open-debate>Open debate</button>
+            <button type="button" class="btn btn--ghost" data-scroll-lab>Jump to lab</button>
+          </div>
+          <p class="paper-aside__hint">Tip: the debate buttons can send presets to the lab.</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="paper-footer">
+      <div class="paper-footer__inner">
+        <span>© {new Date().getFullYear()} {site.name}.</span>
+        <span class="paper-footer__sep">·</span>
+        <a href="/en/projects/">All projects</a>
+      </div>
+    </footer>
+
+    <script>
+      import '../scripts/paper.js';
+      import '../scripts/dvk-modal.js';
+      document.addEventListener('DOMContentLoaded', () => {
+        const w = window as any;
+        if (w.renderMathInElement) {
+          w.renderMathInElement(document.body, {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '$', right: '$', display: false },
+            ],
+            throwOnError: false,
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

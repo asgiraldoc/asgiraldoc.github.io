@@ -1,0 +1,20 @@
+{
+  "name": "asgiraldoc-site",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "todos": "grep -rn \"TODO:\" src public/cv --include=*.astro --include=*.yml --include=*.ts --include=*.md || true"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "astro": "^7.4.2",
+    "js-yaml": "^5.5.0",
+    "sharp": "^0.35.5"
+  }
+}

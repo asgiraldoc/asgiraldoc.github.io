@@ -1,0 +1,75 @@
+# Add a publication = add one entry at the TOP of this list. Order and numbering are automatic.
+# Fields: year, authors (use "Cepeda, A. S." exactly to be highlighted), title, venue, details, doi, links, status
+# status: "preprint" or "thesis" (shows a badge). Optional url: link to the full text.
+
+- year: 2026
+  status: thesis
+  authors: ["Cepeda, A. S."]
+  title: "New Insights into Plasmodium Evolution: How Genomics and Evolutionary Biology Contribute to Understanding Malaria"
+  venue: "PhD dissertation, Temple University"
+  details: ""
+  doi: ""
+  url: "" # TODO: add the link to the dissertation PDF (Temple University repository)
+
+- year: 2025
+  authors: ["Pacheco, M. A.", "Miller, E. A.", "Harl, J.", "Ferreira, F. C.", "Cepeda, A. S.", "Valkiūnas, G.", "Beckerman, S.", "Oswald, M.", "Mateus-Pinilla, N. E.", "Escalante, A. A."]
+  title: "Haemoproteus syrnii and other haemosporidians infecting owls from North America"
+  venue: "Malaria Journal"
+  details: "24, 365"
+  doi: "10.1186/s12936-025-05612-2"
+
+- year: 2024
+  authors: ["Pacheco, M. A.", "Cepeda, A. S.", "Miller, E. A.", "Beckerman, S.", "Oswald, M.", "London, E.", "Mateus-Pinilla, N. E.", "Escalante, A. A."]
+  title: "A new long-read mitochondrial-genome protocol (PacBio HiFi) for haemosporidian parasites: a tool for population and biodiversity studies"
+  venue: "Malaria Journal"
+  details: "23(1), 134"
+  doi: "10.1186/s12936-024-04961-8"
+
+- year: 2024
+  authors: ["Cepeda, A. S.", "Mello, B.", "Pacheco, M. A.", "Luo, Z.", "Sullivan, S. A.", "Carlton, J. M.", "Escalante, A. A."]
+  title: "The genome of Plasmodium gonderi: insights into the evolution of human malaria parasites"
+  venue: "Genome Biology and Evolution"
+  details: "16(2), evae027"
+  doi: "10.1093/gbe/evae027"
+
+- year: 2022
+  authors: ["Escalante, A. A.", "Cepeda, A. S.", "Pacheco, M. A."]
+  title: "Why Plasmodium vivax and Plasmodium falciparum are so different? A tale of two clades and their species diversities"
+  venue: "Malaria Journal"
+  details: "21(1), 1–19"
+  doi: "10.1186/s12936-022-04130-9"
+
+- year: 2021
+  authors: ["Gutiérrez-Liberato, G. A.", "Lotta-Arévalo, I. A.", "González, L. P.", "Vargas-Ramírez, M.", "Rodríguez-Fandiño, O.", "Cepeda, A. S.", "Matta, N. E."]
+  title: "The genetic and morphological diversity of Haemogregarina infecting turtles in Colombia: Are mitochondrial markers useful as barcodes for these parasites?"
+  venue: "Infection, Genetics and Evolution"
+  details: "92, 105040"
+  doi: "10.1016/j.meegid.2021.105040"
+
+- year: 2021
+  authors: ["Cepeda, A. S.", "Pacheco, M. A.", "Escalante, A. A.", "Alzate, J. F.", "Matta, N. E."]
+  title: "The apicoplast of Haemoproteus columbae: A comparative study of this organelle genome in Haemosporida"
+  venue: "Molecular Phylogenetics and Evolution"
+  details: "161, 107185"
+  doi: "" # TODO: add DOI
+
+- year: 2019
+  authors: ["González, L. P.", "Pacheco, M. A.", "Escalante, A. A.", "Maldonado, A. D. J.", "Cepeda, A. S.", "Rodríguez-Fandiño, O. A.", "Matta, N. E."]
+  title: "Haemocystidium spp., a species complex infecting ancient aquatic turtles of the family Podocnemididae: First report of these parasites in Podocnemis vogli from the Orinoquia"
+  venue: "International Journal for Parasitology: Parasites and Wildlife"
+  details: "9, 88–94"
+  doi: "" # TODO: add DOI
+
+- year: 2019
+  authors: ["Cepeda, A. S.", "Lotta, I. A.", "Pinto-Osorio, D. F.", "Macías-Zacipa, J.", "Valkiūnas, G.", "Barato, P.", "Matta, N. E."]
+  title: "The experimental characterization of the complete life cycle of Haemoproteus columbae, with description of the natural host-parasite system to study this infection"
+  venue: "International Journal for Parasitology"
+  details: "49(6), 407–414"
+  doi: "" # TODO: add DOI
+
+- year: 2018
+  authors: ["Pacheco, M. A.", "Cepeda, A. S.", "Bernotienė, R.", "Lotta, I. A.", "Matta, N. E.", "Valkiūnas, G.", "Escalante, A. A."]
+  title: "Primers targeting mitochondrial genes of avian haemosporidia: PCR detection and differential DNA amplification of parasites belonging to different genera"
+  venue: "International Journal for Parasitology"
+  details: "48(7), 469–479"
+  doi: "" # TODO: add DOI

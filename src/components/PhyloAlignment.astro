@@ -1,0 +1,158 @@
+---
+// Decorative figure: a schematic phylogeny whose tips line up with rows of a multiple sequence alignment.
+// Sequences are generated deterministically at build time; the tree is drawn and animated with CSS.
+import { home } from '../i18n/content';
+import type { Lang } from '../config';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
+// ---- tree (ultrametric; h = height above the tips). Tip order = alignment row order.
+type N = { name?: string; h: number; kids?: N[]; hot?: boolean; collapsed?: boolean };
+// hot = genomes generated during the PhD (highlighted)
+const tree: N = {
+  h: 10,
+  kids: [
+    {
+      h: 8,
+      kids: [
+        {
+          h: 6,
+          kids: [
+            { h: 2, kids: [{ name: 'P. falciparum', h: 0 }, { name: 'P. reichenowi', h: 0 }] },
+            {
+              h: 4.8,
+              kids: [
+                { name: 'P. gonderi', h: 0, hot: true },
+                {
+                  h: 3.8,
+                  kids: [
+                    {
+                      // P. fragile basal to (P. coatneyi, P. knowlesi)
+                      h: 3,
+                      kids: [
+                        { name: 'P. fragile', h: 0, hot: true },
+                        { h: 1.6, kids: [{ name: 'P. coatneyi', h: 0, hot: true }, { name: 'P. knowlesi', h: 0 }] },
+                      ],
+                    },
+                    {
+                      // P. cynomolgi (collapsed, several strains) basal to (P. inui, P. vivax)
+                      h: 3,
+                      kids: [
+                        { name: 'P. cynomolgi', h: 0, hot: true, collapsed: true }, // collapsed: represents several strains
+                        { h: 2, kids: [{ name: 'P. inui', h: 0, hot: true }, { name: 'P. vivax', h: 0 }] },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        { h: 3, kids: [{ name: 'H. columbae', h: 0 }, { name: 'H. syrnii', h: 0 }] },
+      ],
+    },
+    { name: 'Leucocytozoon', h: 0 },
+  ],
+};
+
+const ROW = 20.15; // px at 16px root: 1.259rem, must match --rh in global.css
+const W = 240;
+const X = (h: number) => 6 + ((tree.h - h) / tree.h) * (W - 6 - 8);
+
+const names: { name: string; hot: boolean; div: number; plain: boolean }[] = [];
+const divergence: Record<string, number> = {
+  'P. falciparum': 0.35, 'P. reichenowi': 0.4, 'P. gonderi': 0.55, 'P. vivax': 0.6,
+  'P. knowlesi': 0.6, 'H. columbae': 0.9, 'H. syrnii': 0.95, Leucocytozoon: 1.3,
+};
+const divOf = (name: string) => divergence[name] ?? 0.6;
+
+interface Seg { d: string; hot: boolean; delay: number }
+const segs: Seg[] = [];
+const tipsXY: { x: number; y: number; hot: boolean; collapsed: boolean }[] = [];
+let tip = 0;
+
+function layout(n: N, depth: number): { y: number; hot: boolean } {
+  const x = X(n.h);
+  if (!n.kids) {
+    const y = (tip++ + 0.5) * ROW;
+    names.push({ name: n.name!, hot: !!n.hot, div: divOf(n.name!), plain: false });
+    tipsXY.push({ x, y, hot: !!n.hot, collapsed: !!n.collapsed });
+    return { y, hot: !!n.hot };
+  }
+  const ch = n.kids.map((k) => ({ k, r: layout(k, depth + 1) }));
+  const ys = ch.map((c) => c.r.y);
+  const hot = ch.some((c) => c.r.hot);
+  const delay = 0.3 + depth * 0.45;
+  segs.push({ d: `M${x} ${Math.min(...ys)}V${Math.max(...ys)}`, hot, delay });
+  for (const c of ch) segs.push({ d: `M${x} ${c.r.y}H${X(c.k.h)}`, hot: c.r.hot, delay: delay + 0.2 });
+  return { y: (Math.min(...ys) + Math.max(...ys)) / 2, hot };
+}
+layout(tree, 0);
+const H = names.length * ROW;
+
+// ---- alignment
+const COLS = 150;
+let s = 20260707;
+const rnd = () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; };
+const NT = ['A', 'C', 'G', 'T'];
+const pick = () => NT[Math.floor(rnd() * 4)];
+const consensus = Array.from({ length: COLS }, pick);
+const mut = Array.from({ length: COLS }, () => { const r = rnd(); return r < 0.55 ? 0.03 : r < 0.85 ? 0.3 : 0.65; });
+
+const rows = names.map((n) => {
+  const cells: { ch: string; hi: boolean }[] = [];
+  for (let i = 0; i < COLS; i++) {
+    let ch = consensus[i];
+    if (rnd() < Math.min(0.9, mut[i] * n.div)) ch = pick();
+    cells.push({ ch, hi: false });
+  }
+  for (let g = 0; g < 3; g++) {
+    const at = Math.floor(rnd() * (COLS - 8));
+    const len = 1 + Math.floor(rnd() * 5);
+    for (let k = 0; k < len; k++) cells[at + k].ch = '-';
+  }
+  return { ...n, cells };
+});
+const cons = Array.from({ length: COLS }, (_, i) => {
+  const counts: Record<string, number> = {};
+  rows.forEach((r) => (counts[r.cells[i].ch] = (counts[r.cells[i].ch] ?? 0) + 1));
+  return Math.max(...Object.values(counts)) / rows.length;
+});
+rows.forEach((r) => r.cells.forEach((c, i) => (c.hi = cons[i] === 1)));
+---
+
+<div class="pa">
+  <div class="pa-grid" role="img" aria-label={home.alignmentLabel[lang]}>
+    <svg class="pa-tree" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" focusable="false" style={`height:calc(${names.length} * var(--rh))`}>
+      {segs.map((sg) => <path d={sg.d} class:list={['br', sg.hot && 'hot']} pathLength="1" style={`--d:${sg.delay}s`} />)}
+      {tipsXY.map((t) => (
+        <>
+          {t.collapsed && <path d={`M${t.x - 26} ${t.y}L${t.x} ${t.y - ROW * 0.42}V${t.y + ROW * 0.42}Z`} class="tri" style="--d:3.2s" />}
+          {!t.collapsed && t.hot && <path d={`M${t.x} ${t.y}h0`} class="halo" style="--d:3.2s" />}
+          {!t.collapsed && <path d={`M${t.x} ${t.y}h0`} class:list={['dot', t.hot && 'hot']} style="--d:3.2s" />}
+        </>
+      ))}
+    </svg>
+    <div class="pa-labels">
+      {rows.map((r) => <div class:list={[r.hot && 'hot', r.plain && 'plain']}>{r.name}</div>)}
+    </div>
+    <div class="pa-view">
+      <div class="pa-track">
+        {[0, 1].map(() => (
+          <div class="pa-chunk">
+            {rows.map((r) => (
+              <div class:list={['pa-row', r.hot && 'hot']}>{r.cells.map((c) => (
+                <b class:list={[c.ch === '-' ? 'x' : c.ch.toLowerCase(), c.hi && 'k']}>{c.ch}</b>
+              ))}</div>
+            ))}
+            <div class="pa-cons">
+              {cons.map((v) => <i class:list={[v === 1 && 'hi']} style={`height:${Math.round(v * 100)}%`}></i>)}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+  <p class="pa-legend"><span class="pa-key" aria-hidden="true"></span>{home.legend[lang]}</p>
+</div>

@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import { site, langs, type Lang } from '../../config';
+import { contact, ui } from '../../i18n/content';
+
+export const getStaticPaths = () => langs.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+---
+
+<Base lang={lang} page="contact" title={contact.title[lang]}>
+  <div class="wrap page-head">
+    <h1>{contact.title[lang]}</h1>
+    <p class="lead">{contact.intro[lang]}</p>
+  </div>
+  <div class="wrap" style="padding-bottom:3rem">
+    <ul class="contact-list">
+      <li><span class="k">{ui.email[lang]}</span><a href={`mailto:${site.email}`}>{site.email}</a></li>
+      <li><span class="k">Scholar</span><a href={site.links.scholar} rel="me noopener">Google Scholar</a></li>
+      <li><span class="k">GitHub</span><a href={site.links.github} rel="me noopener">github.com/asgiraldoc</a></li>
+      <li><span class="k">LinkedIn</span><a href={site.links.linkedin} rel="me noopener">AxlCepeda420</a></li>
+      <li><span class="k">{lang === 'en' ? 'Affiliation' : 'Afiliación'}</span><span>{contact.location[lang]}</span></li>
+      <li><span class="k">Lab</span><a href={site.links.lab} rel="noopener">Escalante Lab, iGEM</a></li>
+    </ul>
+  </div>
+</Base>
