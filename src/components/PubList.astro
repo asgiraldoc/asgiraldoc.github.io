@@ -1,0 +1,31 @@
+---
+import { SELF, italicizeTaxa, doiUrl, type Pub } from '../lib/publications';
+import { ui } from '../i18n/content';
+import type { Lang } from '../config';
+
+interface Props { items: Pub[]; lang: Lang }
+const { items, lang } = Astro.props;
+---
+
+<ol class="pubs" reversed={false}>
+  {items.map((p) => (
+    <li class="pub">
+      <span class="yr">{p.year}</span>
+      <div>
+        <p class="ttl" set:html={italicizeTaxa(p.title)} />
+        <p class="aut">
+          {p.authors.map((a, i) => (
+            <>{a === SELF ? <strong>{a}</strong> : a}{i < p.authors.length - 1 ? ', ' : ''}</>
+          ))}
+        </p>
+        <p class="ven">
+          <em>{p.venue}</em>{p.details ? `, ${p.details}` : ''}
+          {p.status === 'preprint' && <span class="badge">{ui.preprint[lang]}</span>}
+          {p.status === 'thesis' && <span class="badge">{ui.thesis[lang]}</span>}
+          {p.doi && <a class="doi" href={doiUrl(p.doi)} rel="noopener">DOI: {p.doi}</a>}
+          {p.url && <a class="doi" href={p.url} rel="noopener">{ui.fullText[lang]}</a>}
+        </p>
+      </div>
+    </li>
+  ))}
+</ol>

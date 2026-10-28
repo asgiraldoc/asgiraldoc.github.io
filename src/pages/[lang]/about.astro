@@ -1,0 +1,25 @@
+---
+import { it } from '../../lib/taxa';
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import { langs, type Lang } from '../../config';
+import { about, ui } from '../../i18n/content';
+import portrait from '../../assets/profile.jpg';
+
+export const getStaticPaths = () => langs.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+---
+
+<Base lang={lang} page="about" title={ui.nav.about[lang]}>
+  <div class="wrap page-head"><h1>{about.title[lang]}</h1></div>
+  <div class="wrap about" style="padding-bottom:3rem">
+    <figure class="photo" style="margin:0">
+      <Image src={portrait} alt={about.photoAlt[lang]} widths={[280, 560]} sizes="17rem" />
+    </figure>
+    <div class="prose">
+      {about.paragraphs.map((p) => <p set:html={it(p[lang])} />)}
+      <h2>{about.personalTitle[lang]}</h2>
+      <p>{about.personal[lang]}</p>
+    </div>
+  </div>
+</Base>
